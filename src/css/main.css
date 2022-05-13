@@ -1,0 +1,194 @@
+.full-container {
+  margin: 20%;
+  border: 2px solid rgb(189, 187, 187);
+  padding: 6%;
+  padding-left: 3%;
+  padding-right: 3%;
+  padding-top: 2%;
+  padding-bottom: 3%;
+  border-radius: 15px;
+}
+.heading-one {
+  font-size: 17px;
+  color: rgb(131 95 146);
+  font-family: sans-serif;
+  padding-bottom: 3px;
+}
+.popular-banner h3 {
+  font-size: 12px;
+  font-family: sans-serif;
+  margin-right: 88%;
+  background-color: black;
+  color: white;
+  padding: 3px;
+}
+.row {
+  display: flex;
+}
+.image_section {
+  display: table;
+  height: 100px;
+}
+.images {
+  width: 180px;
+}
+.plus-icon-div {
+  align-items: center;
+  display: flex;
+}
+.plus-icon {
+  width: 30px;
+}
+.first-checkbox {
+  display: flex;
+  margin-top: 30px;
+}
+.primary-label {
+  color: rgb(127, 103, 140);
+  font-family: sans-serif;
+}
+.first-label {
+  font-family: sans-serif;
+}
+.second-label {
+  font-family: sans-serif;
+}
+.this-item {
+  font-family: sans-serif;
+}
+.treat {
+  margin: 0px;
+  margin-left: 88px;
+  margin-bottom: -13px;
+}
+.select-box {
+  display: inline-block;
+}
+.select-class {
+  margin-left: 5px;
+  padding: 1px;
+}
+.input-text.qty {
+  width: 7px;
+  height: 16px;
+  margin-left: 0px;
+
+  text-align: center;
+  background-color: transparent;
+  border: 1px solid rgb(182, 181, 181);
+  border-left: 0px;
+  border-right: 0px;
+}
+.minus {
+  margin-left: 6px;
+  border: 1px solid rgb(182, 181, 181);
+  cursor: pointer;
+  background-color: white;
+  border-right: 0px;
+}
+.plus {
+  border: 1px solid rgb(182, 181, 181);
+  cursor: pointer;
+  background-color: white;
+  border-left: 0px;
+}
+
+.new-price {
+  display: inline-block;
+  padding-left: 6px;
+  color: deeppink;
+  margin-bottom: 0px;
+}
+.old-price {
+  display: inline-block;
+  font-size: 0.8em;
+  text-decoration: line-through;
+  color: rgb(154, 153, 153);
+  padding: 6px;
+  margin-bottom: 0px;
+}
+
+.price {
+  display: flex;
+}
+
+.new-price-two {
+  display: inline-block;
+  padding-left: 6px;
+  color: deeppink;
+  margin: 0px;
+}
+.line-part {
+  border: 1px solid rgb(216, 214, 214);
+  background-color: rgb(216, 214, 214);
+  margin-top: 35px;
+}
+.first-label,
+.second-label {
+  color: #0559f0;
+}
+.select-class {
+  border: 1px solid rgb(216, 214, 214);
+}
+.dollar {
+  color: deeppink;
+}
+
+.down {
+  display: flex;
+}
+.down-total-price {
+  color: rgb(127, 103, 140);
+  font-size: 18px;
+  font-weight: 600;
+}
+.down-total {
+  font-size: 18px;
+  margin-left: 5px;
+  color: deeppink;
+}
+.down-total-saved {
+  font-size: 15px;
+  font-weight: 600;
+  margin-left: 20px;
+  color: deeppink;
+  margin-top: 21px;
+}
+.buttons {
+  display: flex;
+}
+.no-thanks {
+  width: 50%;
+  margin-right: 15px;
+}
+.add-to-cart {
+  width: 50%;
+  margin-left: 15px;
+}
+.no-thanks-button {
+  width: 100%;
+  padding: 15px;
+  background-color: white;
+  border: 2px solid rgb(216, 214, 214);
+  border-radius: 6px;
+  font-size: 16px;
+  color: gray;
+}
+.add-to-cart-button {
+  width: 100%;
+  padding: 15px;
+  background-color: #3192fa;
+  border: 2px solid #3192fa;
+  border-radius: 6px;
+  font-size: 16px;
+  color: white;
+}
+.no-thanks-button:hover {
+  background-color: rgb(182, 181, 181);
+  border: 2px solid rgb(182, 181, 181);
+  color: white;
+}
+.add-to-cart-button:hover {
+  background-color: #6aabf2;
+  border: 2px solid #6aabf2;
+}
